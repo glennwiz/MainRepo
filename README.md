@@ -21,3 +21,6 @@ For this tutorial, we will create four repositories, each with a README file, an
 6. Repeat steps 1-5 to create three more repositories with their own README files. Let's call these repositories "Repo1", "Repo2", and "Repo3".
 7. Navigate to the MainRepo directory on your local machine, and then use the following command to add Repo1 as a submodule:
 
+        git submodule add https://github.com/your-username/Repo1.git
+           - This command will clone the Repo1 repository and add it as a submodule in the MainRepo directory.
+
