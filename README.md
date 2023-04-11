@@ -24,3 +24,12 @@ For this tutorial, we will create four repositories, each with a README file, an
         git submodule add https://github.com/your-username/Repo1.git
            - This command will clone the Repo1 repository and add it as a submodule in the MainRepo directory.
 
+8. Use the following command to check the status of the submodule:
+        
+        git submodule status
+           - You should see something like this:
+           - e9cb9ca8e1b2d1f3116c5f6bba7786c5c2b79a20 Repo1 (heads/main)
+           - This indicates that the Repo1 repository is now a submodule in the MainRepo directory.
+
+9. Navigate to the Repo1 directory in the MainRepo directory:
+           - 
