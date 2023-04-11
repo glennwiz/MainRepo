@@ -1,2 +1,23 @@
-# MainRepo
-A sub-module test scenario
+# Tutorial: Using Git Submodules
+
+Let's start by defining what a submodule is. A Git submodule is essentially a Git repository embedded within another Git repository. This means that you can have a separate Git repository for a specific module or component of your project, and then include it as a submodule within your main project repository. This can be useful when you want to manage multiple repositories as part of a larger project.
+
+For this tutorial, we will create four repositories, each with a README file, and then use one of the repositories as a submodule in another repository. Here are the steps to follow:
+
+1. Create a new repository on GitHub. Let's call this repository "MainRepo".
+2. Clone the MainRepo repository to your local machine using the following command:
+
+        git clone https://github.com/your-username/MainRepo.git
+
+3. Navigate to the MainRepo directory on your local machine.
+4. Create a new file called "README.md" in the MainRepo directory.
+5. Add some content to the README file, and then commit the changes:
+
+        git add README.md
+        git commit -m "Added README file"
+        git push origin main
+
+
+6. Repeat steps 1-5 to create three more repositories with their own README files. Let's call these repositories "Repo1", "Repo2", and "Repo3".
+7. Navigate to the MainRepo directory on your local machine, and then use the following command to add Repo1 as a submodule:
+
