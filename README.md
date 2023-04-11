@@ -46,3 +46,17 @@ For this tutorial, we will create four repositories, each with a README file, an
 12. Navigate back to the MainRepo directory:
 
         cd ..
+
+13. Commit the changes to the MainRepo repository:
+
+        git add .
+        git commit -m "Added submodule"
+        git push origin main
+        
+14. If you want to update the submodule to the latest commit, use the following command:
+
+        git submodule update --remote
+           - This will update the submodule to the latest commit in the Repo1 repository.
+
+
+        
