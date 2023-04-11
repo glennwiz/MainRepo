@@ -32,4 +32,17 @@ For this tutorial, we will create four repositories, each with a README file, an
            - This indicates that the Repo1 repository is now a submodule in the MainRepo directory.
 
 9. Navigate to the Repo1 directory in the MainRepo directory:
-           - 
+
+       cd Repo1 
+
+
+10. Create a new file called "submodule-file.md" in the Repo1 directory.
+11. Add some content to the submodule file, and then commit the changes:
+
+        git add submodule-file.md
+        git commit -m "Added submodule file"
+        git push origin main
+
+12. Navigate back to the MainRepo directory:
+
+        cd ..
